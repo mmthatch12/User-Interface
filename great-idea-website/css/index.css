@@ -71,7 +71,6 @@ body {
 }
 
 nav {
-	border: 3px solid red;
 	display: inline-block;
 	padding-top: 60px;
 	width: 960px;
@@ -88,7 +87,6 @@ nav a {
 }
 
 header {
-	border: 3px solid red;
 	padding-top: 50px;
 	max-height: 400px;
 	width: 960px;
@@ -104,44 +102,55 @@ h1 {
 }
 
 header img {
-	border: 3px solid red;
 	margin-left: 500px;
 	margin-top: -250px;
 }
 
 header button {
-	border: 3px solid red;
 	margin-left: 150px;
 	text-decoration: none;
 }
 
 .top {
-	border: 3px solid red;
-	width: 430px;
+	width: 960px;
 	display: inline-block;
+	padding: 30px;
 }
 
 .div1 {
-	border: 3px solid red;
-	width: 430px;
+	width: 45%;
+	display: inline-block;
 }
-.div2 {
-	margin-left:500px;
-}
+
 .middle-img {
-	border: 3px solid red;
 	width: 960px;
 }
 
-.bottom {
-	border: 3px solid red;
-}
-
-.contact {
-	border: 3px solid red;
+.bottom{
+	max-width: 960px;
+	display: inline-block;
+	padding: 30px;
 }
 
 footer {
 	border: 3px solid red;
 	text-align: center;
+}
+
+.middle-img {
+	margin-top: 30px;
+}
+
+.line {
+	border: 1px solid black;
+	margin-top: 30px;
+}
+ 
+.div2 {
+	width: 30%;
+	display: inline-block;
+}
+
+.contact {
+	padding:30px;
 }
